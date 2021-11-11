@@ -12,6 +12,9 @@
     background-color: gray;
 }
 
+
+/* Utilities */
+
 /* Card */
 .row {
     text-align: center;
@@ -72,8 +75,34 @@
 
 /* Item Description */
 
-.brand-name {
-    height: 790px;
+
+.description {
+    background-color: white;
+    margin: 0 auto;
     width: 30%;
-    text-align: left; 
+    text-align: left;
+    padding: 10px;
+
+    position: relative;
+    bottom: 19px;
+}
+
+.brand-name {
+    display: block;
+
+    font-size: 0.7em;
+}
+
+.item-name {
+    display: block;
+    font-weight: bold;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+    
+
+    font-size: 0.7em;
+    color: red;
 }
