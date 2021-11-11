@@ -20,10 +20,10 @@
     text-align: center;
 }
 
-
+/* 
 .card {
-    height: auto;
-}
+    display: inline-block;
+} */
 
 .item {
     height: 530px;
@@ -38,6 +38,7 @@
     background-repeat: no-repeat;
 
     position: relative;
+    cursor: pointer;
 }
 
 .discount {
@@ -75,6 +76,12 @@
     position: absolute;
     right: 0;
     top: 19px;
+    cursor: pointer;
+}
+
+
+.like-btn:hover {
+    color: red;
 }
 
 
@@ -90,6 +97,8 @@
 
     position: relative;
     bottom: 19px;
+
+    cursor: pointer;
 }
 
 .brand-name {
@@ -110,4 +119,10 @@
 
     font-size: 0.7em;
     color: red;
+}
+
+
+
+.item:hover {
+    background-image: url("../img/1b.webp");
 }
