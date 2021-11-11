@@ -8,8 +8,7 @@
 
 .container {
     width: 1080px;
-    margin: 50px auto;
-    height: 1000px;
+    margin: 30px auto;
 }
 
 
@@ -91,7 +90,7 @@
     padding: 3px;
     background-color: #ea1849;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: bold;
     
     position: absolute;
@@ -103,11 +102,11 @@
     padding: 3px;
     background-color: #00875a;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: bold;
     
     position: absolute;
-    left: 43px;
+    left: 35px;
     bottom: 30px;
 }
 
@@ -139,7 +138,7 @@
     margin: 0 auto;
     width: 80%;
     text-align: left;
-    padding: 10px;
+    padding-top: 7px;
 
     position: relative;
     bottom: 19px;
@@ -167,5 +166,8 @@
     color: red;
 }
 
-
-
+.old_price {
+    color: black;
+    font-weight: normal;
+    text-decoration: line-through;
+}
