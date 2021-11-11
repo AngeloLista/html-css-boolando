@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
 .container {
-    margin: 30px auto;
     height: 1000px;
-    width: 70%;
-    background-color: gray;
 }
 
 
@@ -20,26 +18,72 @@
     text-align: center;
 }
 
-/* 
+
 .card {
     display: inline-block;
-} */
+    width: calc(100% / 3 - 50px);
+}
 
 .item {
     height: 530px;
-    width: 30%;
+    width: 80%;
     display: inline-block;
 
-    margin: 15px;
-
-    background-image: url("../img/1.webp");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
     position: relative;
     cursor: pointer;
 }
+
+/* Items */
+.item.relaxed-tee {
+    background-image: url("../img/1.webp");
+}
+.item.relaxed-tee:hover {
+    background-image: url("../img/1b.webp");
+}
+
+.item.roses_tee {
+    background-image: url("../img/2.webp");
+}
+.item.roses_tee:hover {
+    background-image: url("../img/2b.webp");
+}
+
+.item.voglia_di {
+    background-image: url("../img/3.webp");
+}
+.item.voglia_di:hover {
+    background-image: url("../img/3b.webp");
+}
+
+.item.tee {
+    background-image: url("../img/4.webp");
+}
+.item.tee:hover {
+    background-image: url("../img/4b.webp");
+}
+
+.item.stripe {
+    background-image: url("../img/5.webp");
+}
+.item.stripe:hover {
+    background-image: url("../img/5b.webp");
+}
+
+.item.maglione {
+    background-image: url("../img/6.webp");
+}
+.item.maglione:hover {
+    background-image: url("../img/6b.webp");
+}
+
+
+
+
+
 
 .discount {
     padding: 3px;
@@ -50,7 +94,7 @@
     
     position: absolute;
     left: 0px;
-    bottom: 19px;
+    bottom: 30px;
 }
 
 .sostenibility {
@@ -62,7 +106,7 @@
     
     position: absolute;
     left: 43px;
-    bottom: 19px;
+    bottom: 30px;
 }
 
 
@@ -91,7 +135,7 @@
 .description {
     background-color: white;
     margin: 0 auto;
-    width: 30%;
+    width: 80%;
     text-align: left;
     padding: 10px;
 
@@ -123,6 +167,3 @@
 
 
 
-.item:hover {
-    background-image: url("../img/1b.webp");
-}
