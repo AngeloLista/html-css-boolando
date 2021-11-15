@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-/* Items */
+/* Items Photos */
 .item.relaxed-tee {
     background-image: url("../img/1.webp");
 }
@@ -70,6 +70,7 @@
 .item.stripe {
     background-image: url("../img/5.webp");
 }
+
 .item.stripe:hover {
     background-image: url("../img/5b.webp");
 }
@@ -82,35 +83,31 @@
 }
 
 
-
-
-
-
-.discount {
-    padding: 3px;
-    background-color: #ea1849;
-    color: white;
-    font-size: 0.7em;
-    font-weight: bold;
-    
+/* Badges */
+.badges_bar {
     position: absolute;
     left: 0px;
     bottom: 30px;
 }
 
-.sostenibility {
+.badge {
     padding: 3px;
-    background-color: #00875a;
     color: white;
     font-size: 0.7em;
     font-weight: bold;
-    
-    position: absolute;
-    left: 35px;
-    bottom: 30px;
+}
+
+.badge.bg_red {
+    background-color: #ea1849;
+}
+
+.badge.bg_green{
+    background-color: #00875a;
+
 }
 
 
+/* Like Button */
 .like-btn {
     height: 30px;
     width: 30px;
@@ -131,8 +128,6 @@
 
 
 /* Item Description */
-
-
 .description {
     background-color: white;
     margin: 0 auto;
